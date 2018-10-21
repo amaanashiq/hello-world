@@ -1,0 +1,6 @@
+sweets = 35
+pupils = sweets // 15
+left_over = sweets - (pupils * 15)
+print (pupils)
+print (left_over
+this is for the console 
