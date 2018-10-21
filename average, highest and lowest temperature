@@ -1,0 +1,33 @@
+mark_1 = int_(input_('Enter first temperature: '))
+
+mark_2 = int_(input_('Enter second temperature: '))
+
+mark_3 = int_(input_('Enter third temperature: '))
+
+mark_4 = int_(input_('Enter fourth temperature: '))
+
+total_marks = mark_1 + mark_2 + mark_3 + mark_4
+
+average_mark = total_marks / 4
+
+print_()
+print_('Average reading is " + str(average_mark))
+
+def bubble_sort(sort_list):
+    for j in range(len(sort_list)):
+        for k in range(len(sort_list) - 1):
+            if sort_list[k] > sort_list[k + 1]:
+                sort_list[k], sort_list[k +1] = sort_list[k + 1], sort_list[k]
+   print('\nThe sorted list: \t', sort_list)
+   print('\n')
+   
+   lst = []
+   size = int(input("\nEnter the number of readings: \t"))
+   
+   for i in range(size):
+       elements = int(input("Renter the temperature readings: \t"))
+       lst.append(elements)
+      
+  lst.append(elements)
+  
+  print('Maximum tamperature in the list is :", max(lst), "nminimum temperature in the list is :", min(lst))
