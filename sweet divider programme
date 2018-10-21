@@ -1,0 +1,5 @@
+sweets = 47
+sweets_to_pupils = 16
+
+print ('we can give', sweets // sweets_to_pupils, 'sweets to each pupil. ')
+print ('we will have', sweets % sweets_to_pupils, 'sweets left over')
