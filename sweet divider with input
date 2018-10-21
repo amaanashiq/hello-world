@@ -1,0 +1,5 @@
+sweets_to_pupils = int(input("How many sweets are there?"))
+pupils_to_share_with = int(input("How many pupils are there in the class?"))
+
+print_('we can give', sweets_to_pupils // pupils_to_share_with, 'sweets to each pupil. ')
+print_('we will have', sweets_to_pupils % pupils_to_share_with, 'sweets left over')
